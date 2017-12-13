@@ -1,5 +1,4 @@
 #!/usr/bin/env ruby
-
 require 'net/http'
 require 'minitest/autorun'
 require 'socket'
@@ -17,4 +16,5 @@ class JenkinsSampleTest < MiniTest::Unit::TestCase
   def test_congratulations
     assert(@webpage =~ /Congratulations/)
   end
+  
 end
