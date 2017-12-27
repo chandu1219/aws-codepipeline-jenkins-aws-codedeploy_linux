@@ -1,5 +1,4 @@
 #!/usr/bin/env ruby2r123
-
 require 'rake/testtask'
 require 'rubygems'
 require 'rake'
