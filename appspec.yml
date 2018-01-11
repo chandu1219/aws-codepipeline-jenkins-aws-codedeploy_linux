@@ -3,9 +3,6 @@ os: linux
 files:
   - source: /index.html
     destination: /var/www/html/
-    overwrite: true
-  - source: /sample.html
-    destination: /var/www/html/
     overwrite: true  
 hooks:
   BeforeInstall:
